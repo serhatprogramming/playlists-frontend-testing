@@ -1,0 +1,45 @@
+.notification {
+  position: relative;
+  padding: 10px;
+  margin: 15px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.warning {
+  background-color: #ff9800;
+  color: white;
+}
+
+.info {
+  background-color: #2196f3;
+  color: white;
+}
+
+.section {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.playlist-owner {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px dotted #999;
+  font-size: 0.8rem;
+}
+
+.small-button {
+  font-size: 0.65rem;
+  padding: 1px;
+}
