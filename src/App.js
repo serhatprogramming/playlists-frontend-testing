@@ -138,6 +138,7 @@ const App = () => {
           type="text"
           value={playlistName}
           onChange={(e) => setPlaylistName(e.target.value)}
+          data-testid="playlist-name"
         />
       </div>
       <div>
@@ -146,6 +147,7 @@ const App = () => {
           type="text"
           value={creator}
           onChange={(e) => setCreator(e.target.value)}
+          data-testid="creator"
         />
       </div>
       <div>
@@ -154,6 +156,7 @@ const App = () => {
           type="number"
           value={numOfSongs}
           onChange={(e) => setNumOfSongs(e.target.value)}
+          data-testid="songs"
         />
       </div>
       <div>
@@ -162,9 +165,12 @@ const App = () => {
           type="number"
           value={likes}
           onChange={(e) => setLikes(e.target.value)}
+          data-testid="likes"
         />
       </div>
-      <button type="submit">Add Playlist</button>
+      <button data-testid="add-playlist-button" type="submit">
+        Add Playlist
+      </button>
     </form>
   );
 
